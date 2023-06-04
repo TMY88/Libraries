@@ -1,9 +1,9 @@
-package pro.sky.collections2.service;
+package pro.sky.libraries.service;
 
 import org.springframework.stereotype.Service;
-import pro.sky.collections2.Employee;
-import pro.sky.collections2.exceptions.EmployeeAlreadyAddedException;
-import pro.sky.collections2.exceptions.EmployeeNotFoundException;
+import pro.sky.libraries.Employee;
+import pro.sky.libraries.exceptions.EmployeeAlreadyAddedException;
+import pro.sky.libraries.exceptions.EmployeeNotFoundException;
 
 import java.util.HashMap;
 import java.util.Map;

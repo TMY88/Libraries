@@ -1,4 +1,4 @@
-package pro.sky.collections2;
+package pro.sky.libraries;
 
 import java.util.Objects;
 

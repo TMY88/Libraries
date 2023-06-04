@@ -1,10 +1,10 @@
-package pro.sky.collections2;
+package pro.sky.libraries;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Collections2ApplicationTests {
+class LibrariesApplicationTests {
 
     @Test
     void contextLoads() {

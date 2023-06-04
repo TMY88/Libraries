@@ -1,6 +1,6 @@
-package pro.sky.collections2.service;
+package pro.sky.libraries.service;
 
-import pro.sky.collections2.Employee;
+import pro.sky.libraries.Employee;
 
 import java.util.Map;
 
