@@ -21,7 +21,9 @@ public class EmployeeController {
         this.employeeService = employeeService;
     }
     @GetMapping("/add")
-    public ResponseEntity<Employee> addEmployee(@RequestParam String firstName, @RequestParam String lastName) {
+    public ResponseEntity<Employee> addEmployee(
+            @RequestParam String firstName,
+            @RequestParam String lastName) {
         if (EmployeeValidator.validate(firstName, lastName)) {
             return ResponseEntity.ok(employeeService.addEmployee(firstName, lastName));
         } else {
