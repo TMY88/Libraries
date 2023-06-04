@@ -11,10 +11,11 @@
     <groupId>pro.sky</groupId>
     <artifactId>Libraries</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Collections2</name>
-    <description>Collections2</description>
+    <name>Libraries</name>
+    <description>Libraries</description>
     <properties>
         <java.version>11</java.version>
+        <project.name>Libraries</project.name>
     </properties>
     <dependencies>
         <dependency>

@@ -1,5 +1,7 @@
 package pro.sky.libraries;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.Objects;
 
 public class Employee {
@@ -15,8 +17,8 @@ public class Employee {
     }
 
     public Employee(String firsName, String lastName) {
-        this.firsName = firsName;
-        this.lastName = lastName;
+        this.firsName = StringUtils.capitalize(firsName.toLowerCase());
+        this.lastName = StringUtils.capitalize(lastName.toLowerCase());
     }
 
     @Override
